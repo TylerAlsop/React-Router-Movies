@@ -5,7 +5,6 @@ import Movie from "./Movie";
 
 const MovieList = props => {
   const [movies, setMovies] = useState([])
-  console.log(props);
   useEffect(() => {
     const getMovies = () => {
       axios
